@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4144A40123AD8161007CA12C /* fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4144A40123AD8161007CA12C /* iPhoneFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4144A40423AD8161007CA12C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4144A40623AD8161007CA12C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4144A40823AD8161007CA12C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		4144A40223AD8161007CA12C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4144A40123AD8161007CA12C /* fun.app */,
+				4144A40123AD8161007CA12C /* iPhoneFix.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,7 +83,6 @@
 				45EA5887D8766BF97BEE3B91 /* Pods-fun.debug.xcconfig */,
 				8BB615958247B6A4FDAE555F /* Pods-fun.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,7 +113,7 @@
 			);
 			name = fun;
 			productName = fun;
-			productReference = 4144A40123AD8161007CA12C /* fun.app */;
+			productReference = 4144A40123AD8161007CA12C /* iPhoneFix.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -366,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.princetechn0.fun;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iPhoneFix;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -385,7 +384,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.princetechn0.fun;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iPhoneFix;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
